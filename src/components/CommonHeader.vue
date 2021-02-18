@@ -64,8 +64,6 @@ export default{
 
 
 <style scoped>
-
-
 #top-header {
   height: 70px;
   line-height: 70px;
@@ -141,6 +139,11 @@ export default{
   color: #fff;
 }
 
+.hbgmenu-nav{
+  display: none;
+}
+
+
 @media screen and (max-width: 768px) {
   #hamburger{
     width: 40px;
@@ -210,7 +213,7 @@ export default{
   width: calc(100% - 80px);
   height: 100%;
   background-color: #fff;
-  box-shadow: 30px 0 rgba(8, 77, 206, 0.3);
+  box-shadow: 30px 0 rgba(136, 141, 151, 0.3);
   color: #000;
   z-index: 999;
   text-align: left;
@@ -219,6 +222,22 @@ export default{
 .hbgmenu-nav.open{
   left:0;
 }
+}
+.hbgmenu-nav p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.hbgmenu li{
+  width: 90%;
+  border-bottom: 1px solid darkgray;
+}
+
+.hbgmenu li a{
+  font-size: 18px;
+  margin-left: 10px;
+  padding-bottom: 5px;
 }
 
 </style>
